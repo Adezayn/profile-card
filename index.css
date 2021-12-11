@@ -41,6 +41,7 @@ main{
     margin:50px auto;
 }
 main > img{
+    display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -77,14 +78,12 @@ main > img{
 }
 @media(max-width:375px){
     body{
-        background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
-        background-position:-400px -600px, 500px 300px;
+        background-position:-600px -800px, 200px 150px;
     }
 }
 @media(min-width:1440px){
     body{
-        background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
-        background-position:right top, left bottom;
+        background-position:-300px -500px, 600px 400px;
     }
     main{
         margin:200px auto;
